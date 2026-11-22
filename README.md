@@ -16,7 +16,7 @@ Desde esta carpeta ejecuta `python -m http.server 8000` y abre `http://127.0.0.1
 
 ## Estado y limitaciones
 
-Es una versión de trabajo, aún no entregable. Se requiere completar la auditoría de accesibilidad y contraste, verificar todos los flujos y el estado compartido, comparar las pantallas con Figma y completar el informe, repositorio y publicación. Las tablas anchas tienen desplazamiento interno. La selección de cartera se muestra como composición objetivo en Trading; no ejecuta órdenes ni altera automáticamente las posiciones. El ranking se calcula a partir de las posiciones realmente registradas.
+Los nueve módulos se probaron en GitHub Pages a 1280 y 390 px. Queda pendiente la revisión exhaustiva de accesibilidad y la prueba en un teléfono real. Las tablas anchas tienen desplazamiento interno. La selección de cartera se muestra como composición objetivo en Trading; no ejecuta órdenes ni altera automáticamente las posiciones. El ranking se calcula a partir de las posiciones realmente registradas.
 
 Los datos tienen diferencias de redondeo entre algunos retornos y precios de regresión; se muestran los valores originales. El portafolio denominado Agresivo presenta en el JSON un retorno esperado y una volatilidad inferiores a los del Moderado; no se alteraron los valores.
 
@@ -24,7 +24,8 @@ Los datos tienen diferencias de redondeo entre algunos retornos y precios de reg
 
 Sistema base y datos proporcionados por Ernesto D. Cancho-Rodríguez, licencia CC BY 4.0 (ver `LICENSE`). Diseño asistido por Figma Make y desarrollo asistido por Codex; las contribuciones deben ser revisadas y verificadas por el equipo.
 
-Figma: https://www.figma.com/make/h6iTyexsgfwwWM83vycM0a . GitHub Pages: pendiente.
+- [Prototipo de Figma Make](https://www.figma.com/make/h6iTyexsgfwwWM83vycM0a).
+- [Sitio del Equipo D en GitHub Pages](https://cliscrack.github.io/S13_EquipoD_Ernesto_Investing_AI./).
 
 ## Equipo D
 
