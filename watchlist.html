@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Watchlist y alertas · Ernesto Investing AI</title><link rel="icon" href="favicon.ico"><link rel="stylesheet" href="css/styles.css"></head>
+<body data-page="watchlist"><main>
+<h1>Watchlist y alertas</h1>
+<p class="mut">Elige qué activos y alertas seguir. Tus cambios se guardan en este navegador.</p>
+<div class="grid" id="resumen-watch"></div>
+<div class="row"><div><label for="add">Agregar activo</label><select id="add"></select></div><button id="bt" class="primary" type="button">Agregar</button></div>
+<p id="estado-watch" role="status"></p>
+<section class="card"><h2>Activos seguidos</h2>
+<div class="row"><div><label for="ver-watch">Mostrar</label><select id="ver-watch"><option value="">Todos los seguidos</option><option value="disparadas">Con alertas disparadas</option></select></div></div>
+<div class="tw" tabindex="0" role="region" aria-label="Activos seguidos"><table><thead><tr><th scope="col">Ticker</th><th scope="col">Último</th><th scope="col">1 d</th><th scope="col" class="l">Últimas 60 sesiones</th><th scope="col">Alerta</th><th scope="col">Quitar</th></tr></thead><tbody id="tb"></tbody></table></div></section>
+<section class="card chart-panel"><h2>Alertas configuradas</h2><p>Las reglas usan el último cierre sintético disponible.</p><ul id="al" class="alertas-lista"></ul></section>
+<script src="js/common.js"></script>
+<script src="js/watchlist.js"></script></main></body></html>

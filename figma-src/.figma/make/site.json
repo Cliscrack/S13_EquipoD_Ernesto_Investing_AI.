@@ -1,0 +1,10 @@
+{
+  "description": "Explora herramientas educativas de análisis bursátil, pronóstico y trading simulado con datos sintéticos para aprender y comparar estrategias sin asesoría financiera.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
